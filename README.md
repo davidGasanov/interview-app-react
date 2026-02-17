@@ -33,7 +33,7 @@ Render the results in an MUI `Table` with the following columns:
 | Rating | `rating` |
 
 ### 3. States to handle
-- **Loading** — show an MUI `CircularProgress` while the request is in flight
+- **Loading** — show an MUI `CircularProgress` (or other loading indicators) while the request is in flight
 - **Empty** — show a message if the response contains no products
 - **Error** — show an MUI `Alert` if the request fails
 
